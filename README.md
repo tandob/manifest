@@ -50,13 +50,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 # To initialize your local repository for CIVILIZATION, use a command like this:-
 
 ```bash
- $ repo init -u https://github.com/Ancient-Lab/manifest -b ten
-```
-
-# To initialize your local repository for WEEABO, use a command like this:-
-
-```bash
- $ repo init -u https://github.com/Ancient-Lab/manifest -b ten-weeabo
+ $ repo init -u https://github.com/tandob/manifest -b ten
 ```
 
 # Then to sync up:- 
@@ -69,7 +63,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 
 ```bash
  $ . build/envsetup.sh
- $ lunch ancient_<devicecodename>-userdebug
+ $ lunch ancient_mido-userdebug
  $ mka bacon -j$(nproc --all)
 ```
 -----------------------------------------------------------------------------
