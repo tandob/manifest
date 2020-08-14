@@ -802,4 +802,7 @@
 	
  <!-- Add all Ancient repos -->
   <include name="snippets/ancient.xml" />
+	
+ <!-- Add all Ancient repos -->
+  <include name="snippets/mido.xml" />
 </manifest>
