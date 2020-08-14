@@ -1,0 +1,6 @@
+<manifest>
+<remote name="tandob" fetch="https://github.com/tandob"/>
+<!--  Build  -->
+<project path="device/xiami/mido" name="android_device_xiaomi_mido" revision="ten" remote="tandob"/>
+<project path="vendor/xiami" name="android_vendor_xiaomi_mido" revision="ten" remote="tandob"/>
+</manifest>
